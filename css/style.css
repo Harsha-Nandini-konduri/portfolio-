@@ -1,0 +1,98 @@
+.sub1D {
+  width: 98%;
+  height: 400px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px 10px 10px 10px;
+}
+
+.myimage {
+  text-align: center;
+  width: 100%;
+  height: 400px;
+  border-radius: 10px;
+}
+
+.lofo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lofoimg {
+  width: 20%;
+  height: 100px;
+}
+
+.h1 {
+  font-size: 40px;
+}
+
+.c1 {
+  width: 45%;
+  margin: 10px 10px 10px 10px;
+}
+
+.p {
+  font-size: 30px;
+  font-style: italic;
+  text-align: center;
+}
+
+.sub2d {
+  width: 98%;
+  height: 800px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: inline;
+}
+
+.main {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.s1 {
+  width: 98%;
+  height: 400px;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  justify-content: space-between;
+}
+
+.flowerimage {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+}
+
+@media screen and (min-width:320px) and (max-width:500px) {
+  .sub1D {
+    width: 95%;
+  }
+
+  .s1 {
+    display: inline;
+    border: 0px solid black;
+  }
+
+  .c1 {
+    width: 95%;
+  }
+}
+
+@media screen and (min-width:501px) and (max-width:780px) {
+  .sub1D {
+    width: 97%;
+  }
+
+  .s1 {
+    width: 97%;
+  }
+}
